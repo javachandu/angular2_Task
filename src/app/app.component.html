@@ -1,0 +1,20 @@
+<h1>Techolution {{ title }}!</h1>
+<div>
+ 
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>RollNumber</th>
+      </tr>
+      <tr *ngFor="let d of data">
+        
+        <td>{{ d.name }}</td>
+        <td>{{ (d.marks.Maths*1 + d.marks.English*1 + d.marks.Science*1) }}</td>
+        <td>{{ d.rollNumber}}</td>
+		   
+      </tr>
+    </table>
+
+
+</div>
