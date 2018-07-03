@@ -1,5 +1,7 @@
-export class Student {  
-    constructor( public name: string, public marks: number, public rollNumber: string,public status:string,public color:string) 
+export class Student {
+    color:string;  
+    status:string;
+    constructor( public name: string, public marks: number, public rollNumber: string) 
     {
 
         
